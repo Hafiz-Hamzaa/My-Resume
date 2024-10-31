@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,Arial;
+}
+body{
+    background-color: rgb(27, 27, 51);
+}
+.resume-container{
+    display: flex;
+    width: 95vw;
+    height: 95vh;
+    margin: 0 auto;
+    margin-top: 3.2%;
+    background-color: rgb(27, 27, 51);
+}
+/* Left-Panel */
+.left-panel{
+    margin-left: 2%;
+    background-color: rgb(27, 27, 51);
+    width: 100vw;
+}
+h1{
+    margin-top: 20%;
+    font-weight: 700;
+    font-size: 1.75rem;
+    color: white;
+}
+
+/* contact section */
+span{
+    font-size: 1rem;
+    color: gainsboro;
+}
+.line-height{
+    margin-top: 4px;
+    width: 100px;
+    height: 8px;
+    background-color: rgba(230, 182, 94, 0.884) ;
+}
+button{
+    border-radius: 14px;
+    width: 120px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    margin-top: 20%;
+    background-color: white;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px 4px rebeccapurple;
+    transition: 1s;
+}
+button:hover{
+    transform: scale(1.025);
+}
+
+.lang{
+    margin-top: 6px;
+    color: white;
+}
+.skill{
+    margin-top: 6px;
+    color: white;
+}
+.icon{
+    margin-top: 6px;
+}
+i{
+    color: rgba(230, 182, 94, 0.884);
+}
+.info{
+    display: inline-block;
+}
+span{
+    color: white;
+    font-size: 14px;
+}
+
+/* Right-Panel */
+.right-panel{
+    margin-left: 10%;
+
+}
+#profile-img{
+    width: 120px;
+    height: 120px;
+    margin-top: 3%;
+    margin-left: 20px;
+    border: 0px solid purple;
+    border-radius:50%;
+    background-color: aqua;
+    background-image: url(profile-image.jpeg);
+    background-size: cover;
+    box-shadow: 2px 2px 15px 6px rgb(182, 180, 192);
+}
+#w-e{
+    width: 160px;
+    padding-left: 4px;
+    font-size: 15px;
+    background-color: orange;
+}
+.btn{
+    margin-top: 25px;
+    background-color: orange;
+    box-shadow: 1px 1px 5px 1px rebeccapurple;
+
+}
+#p-btn{
+    background-color: orange;
+    box-shadow: 1px 1px 5px 1px rebeccapurple;
+}
+.toggle{
+    width: 120px;
+    padding-left: 2px;
+    font-size: 12px;
+    background-color: rgb(23, 226, 226);
+    box-shadow: 2px 2px 8px 3px rgb(176, 177, 121);
+}
+.txt{
+    margin-top: 3px;
+    margin-left: 6px;
+    color: white;
+    font-size: 15px;
+}
+#email{
+    font-size: 12px;
+}
